@@ -1,0 +1,14 @@
+bs4
+duckduckgo-search
+groq
+nest_asyncio
+ollama
+openai
+pgvector
+ethosian
+psycopg[binary]
+pypdf
+sqlalchemy
+streamlit
+tavily-python
+yfinance

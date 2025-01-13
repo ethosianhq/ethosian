@@ -1,0 +1,14 @@
+from ethosian.agent import Agent
+from ethosian.model.google import Gemini
+
+agent = Agent(
+    model=Gemini(id="gemini-2.0-flash-exp"),
+    markdown=True,
+)
+
+# Please download a sample audio file to test this Agent
+agent.print_response(
+    "Tell me about this audio",
+    audio="sample_audio.mp3",
+    stream=True,
+)

@@ -1,0 +1,13 @@
+from ethosian.assistant import Assistant
+from ethosian.tools.yfinance import YFinanceTools
+from ethosian.llm.groq import Groq
+
+assistant = Assistant(
+    llm=Groq(model="llama-3.1-405b-reasoning"),
+    tools=[YFinanceTools(stock_price=True, analyst_recommendations=True,
+                         stock_fundamentals=True, company_news=True)],
+    show_tool_calls=True,
+)
+assistant.print_response("What's the NVDA stock price", markdown=True)
+assistant.print_response("Share NVDA analyst recommendations", markdown=True)
+assistant.print_response("Summarize fundamentals for TSLA", markdown=True)

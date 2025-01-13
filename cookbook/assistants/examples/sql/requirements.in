@@ -1,0 +1,8 @@
+openai
+pandas
+ethosian
+streamlit
+sqlalchemy
+simplejson
+pgvector
+psycopg[binary]

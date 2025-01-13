@@ -1,0 +1,7 @@
+ethosian
+openai
+bs4
+langchain_community
+langchain-openai
+langchain
+langchain_core
