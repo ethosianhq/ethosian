@@ -13,7 +13,7 @@ Develop versatile agents with recall, knowledge, and advanced functionalities.
 </h3>
 
 <img
-  src="https://github.com/user-attachments/assets/137a7f42-d1dd-449b-b1a8-91cf788d9799"
+  src="https://github.com/user-attachments/assets/759e0ed5-c385-47ae-a181-ac392b9abefc"
   style="border-radius: 8px;"
 />
 
@@ -194,7 +194,7 @@ python agent_team.py
 
 ethosian provides a beautiful UI for interacting with your agents. Let's take it for a spin, create a file `playground.py`
 
-![agent_playground](https://github.com/user-attachments/assets/b41086a5-539f-4f5f-87ff-121db2c7fb60)
+![agent_playground](https://github.com/user-attachments/assets/06e0a2ce-bd02-4269-b01e-f35ced4263fa)
 
 > [!NOTE]
 > ethosian does not store any data, all agent data is stored locally in a sqlite database.
